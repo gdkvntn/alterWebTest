@@ -1,0 +1,96 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 854px) {
+  .swiper-slide {
+    justify-content: left;
+  }
+}
+@media screen and (max-width: 700px) {
+  .swiper-slide {
+    justify-content: center;
+  }
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pagination {
+  max-width: 105px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+@media screen and (max-width: 500px) {
+  .pagination {
+    max-width: 65px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .pagination span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.swiper-pagination-bullet {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: rgb(95, 95, 95);
+  opacity: 1;
+  background: transparent;
+}
+@media screen and (max-width: 854px) {
+  .swiper-pagination-bullet {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  color: rgb(38, 73, 126);
+  background: transparent;
+}
+
+.btnPrev, .btnNext {
+  cursor: pointer;
+}
+.btnPrev:hover, .btnNext:hover {
+  background-image: url(../../assets/svg/ArrowHover.svg);
+  background-size: 100%;
+}
+
+.btnPrev {
+  width: 20px;
+  height: 10px;
+  background-image: url(/assets/svg/Arrow.svg);
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+}
+
+.btnNext {
+  width: 20px;
+  height: 10px;
+  background-image: url(/assets/svg/Arrow.svg);
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=m-swiper.css.map */
