@@ -653,7 +653,7 @@ main {
   display: inline-block;
   width: 650px;
   height: 496px;
-  background-image: url("../../assets/img/bgImg.png");
+  background-image: url("../../assets/img/bgImg.webp");
   background-size: 650px 496px;
   background-repeat: no-repeat;
   position: absolute;
@@ -910,7 +910,7 @@ main {
 
 .slide-right_two div {
   position: absolute;
-  background-image: url(../../assets/img/headerImg2.png);
+  background-image: url(../../assets/img/headerImg2.webp);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 790px;
@@ -938,7 +938,7 @@ main {
 
 .slide-right_third div {
   position: absolute;
-  background-image: url(../../assets/img/headerImg3.png);
+  background-image: url(../../assets/img/headerImg3.webp);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 760px;
@@ -1290,7 +1290,7 @@ main {
   display: inline-block;
   width: 530px;
   height: 410px;
-  background-image: url("../../assets/img/aboutStoreImgBg.png");
+  background-image: url("../../assets/img/aboutStoreImgBg.webp");
   background-size: 530px 410px;
   background-repeat: no-repeat;
   position: absolute;
@@ -1426,7 +1426,7 @@ main {
 .instBtn::before {
   content: "";
   display: inline-block;
-  background-image: url(../../assets/img/instbg.png);
+  background-image: url(../../assets/img/instbg.webp);
   background-repeat: no-repeat;
   position: absolute;
   width: 108px;
@@ -1551,7 +1551,7 @@ main {
 }
 
 .partners-imgOne {
-  background-image: url(../../assets/img/partners1.png);
+  background-image: url(../../assets/img/partners1.webp);
   height: 110px;
   width: 360px;
 }
@@ -1563,7 +1563,7 @@ main {
 }
 
 .partners-imgSec {
-  background-image: url(../../assets/img/partners2.png);
+  background-image: url(../../assets/img/partners2.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 122px;
@@ -1577,7 +1577,7 @@ main {
 }
 
 .partners-imgThird {
-  background-image: url(../../assets/img/partners3.png);
+  background-image: url(../../assets/img/partners3.wepb);
   height: 82px;
   width: 337px;
 }
@@ -1589,7 +1589,7 @@ main {
 }
 
 .partners-imgFour {
-  background-image: url(../../assets/img/partners4.png);
+  background-image: url(../../assets/img/partners4.webp);
   height: 125px;
   width: 246px;
 }
@@ -1601,7 +1601,7 @@ main {
 }
 
 .partners-imgFive {
-  background-image: url(../../assets/img/partners5.png);
+  background-image: url(../../assets/img/partners5.webp);
   height: 127px;
   width: 537px;
   background-repeat: no-repeat;
@@ -1615,7 +1615,7 @@ main {
 }
 
 .partners-imgSex {
-  background-image: url(../../assets/img/partners6.png);
+  background-image: url(../../assets/img/partners6.webp);
   height: 130px;
   width: 351px;
 }
@@ -1627,7 +1627,7 @@ main {
 }
 
 .partners-imgSeven {
-  background-image: url(../../assets/img/partners7.png);
+  background-image: url(../../assets/img/partners7.webp);
   height: 164px;
   width: 220px;
 }
@@ -1639,7 +1639,7 @@ main {
 }
 
 .partners-imgEight {
-  background-image: url(../../assets/img/partners8.png);
+  background-image: url(../../assets/img/partners8.webp);
   height: 210px;
   width: 157px;
   background-repeat: no-repeat;
@@ -1653,7 +1653,7 @@ main {
 }
 
 .partners-imgNine {
-  background-image: url(../../assets/img/partners9.png);
+  background-image: url(../../assets/img/partners9.webp);
   height: 127px;
   width: 162px;
 }
