@@ -1,0 +1,54 @@
+.header {
+  margin-bottom: 45px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1350px;
+  width: 100%;
+}
+
+.text {
+  font-family: "Stag Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  color: #fed16e;
+  background: #070718;
+  border-radius: 83.4238px;
+  padding: 17px 45px;
+}
+.textRight {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 105%;
+  text-align: justify;
+  color: #070718;
+  width: 803px;
+  background: transparent;
+  border: rgba(255, 124, 22, 1) 4px solid;
+  margin-left: 17px;
+  position: relative;
+  padding-right: 32px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+.star {
+  content: "";
+  background-image: url("../../images/svg/Star.svg");
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: 45%;
+  top: -30%;
+  z-index: 0;
+}
+.starContainer {
+  position: relative;
+}

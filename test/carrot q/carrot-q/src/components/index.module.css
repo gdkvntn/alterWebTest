@@ -1,0 +1,182 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #070718;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Stag Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+@font-face {
+  font-family: "Stag Sans";
+  src: url("../fonts/StagSans-Regular.eot");
+  src: local("Stag Sans Regular"), local("StagSans-Regular"),
+    url("../fonts/StagSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/StagSans-Regular.woff2") format("woff2"),
+    url("../fonts/StagSans-Regular.woff") format("woff"),
+    url("../fonts/StagSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stag Sans";
+  src: url("../fonts/StagSans-Italic.eot");
+  src: local("Stag Sans Italic"), local("StagSans-Italic"),
+    url("../fonts/StagSans-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/StagSans-Italic.woff2") format("woff2"),
+    url("../fonts/StagSans-Italic.woff") format("woff"),
+    url("../fonts/StagSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v34-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/open-sans-v34-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/open-sans-v34-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/open-sans-v34-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/open-sans-v34-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/open-sans-v34-latin-regular.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding: 150px 0;
+  background: rgba(254, 209, 110, 1);
+}

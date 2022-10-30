@@ -1,0 +1,138 @@
+.footer {
+  background: linear-gradient(
+    90deg,
+    rgba(250, 133, 161, 1) 50%,
+    rgba(255, 124, 22, 1) 50%
+  );
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1350px;
+  width: 100%;
+}
+.footerLeft {
+  position: relative;
+  padding: 100px 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footerLeft h3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #070718;
+}
+.img {
+  width: 105px;
+  height: 105px;
+  background-color: #fff;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45px 45px;
+}
+.imgContainer {
+  display: flex;
+  margin-top: 30px;
+}
+.tel {
+  background-image: url(../../images/people/tel.svg);
+}
+.face {
+  background-image: url(../../images/svg/f.svg);
+}
+.vk {
+  background-image: url(../../images/svg/vk2.svg);
+}
+.inst {
+  background-image: url(../../images/svg/inst.svg);
+}
+.yt {
+  background-image: url(../../images/svg/yt.svg);
+}
+.heart {
+  background-image: url(../../images/svg/heart.svg);
+  width: 67px;
+  height: 67px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 45px;
+  right: 65px;
+}
+
+.footerRight {
+  width: 50%;
+  padding: 100px 0;
+  padding-left: 90px;
+  position: relative;
+}
+
+.footerRight h3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #070718;
+  margin-bottom: 40px;
+}
+
+.mail {
+  background: #ff7c16;
+  border: 2px solid #ffffff;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  padding: 15px 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #070718;
+}
+.mail::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #070718;
+}
+
+.sub {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: #fff;
+  padding: 15px 47px;
+  border: 2px solid #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footerStarOne {
+  width: 130px;
+  height: 75px;
+  background-image: url("../../images/svg/footer1.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+}
+.footerStarSec {
+  width: 190px;
+  height: 75px;
+  background-image: url("../../images/svg/footer2.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.img:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.sub:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
